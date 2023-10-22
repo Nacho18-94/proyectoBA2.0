@@ -68,7 +68,6 @@ article{
     font-size: 20px;
     border-radius: 20px;
 }
-
 @media(min-width: 768px){
     .tarjetas{
     display: flex;
