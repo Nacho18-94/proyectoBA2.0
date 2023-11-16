@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url(../Img/Imagen8.jpeg);
+}
+
+.form-registro {
+    width: 400px;
+    background: rgb(41, 40, 40);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(204, 204, 204);
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+    background: rgb(41, 40, 40);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.form-registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-registro a {
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+
+.form-registro a:hover {
+    color: rgb(204, 204, 204);
+    text-decoration: underline;
+}
+
+.form-registro .btn {
+    width: 100%;
+    background: rgb(24, 24, 24);
+    border-radius: 4px;
+    padding: 12px;
+    color: rgb(204, 204, 204);
+    margin: 16px 0;
+    font-size: 16px;
+
+}
