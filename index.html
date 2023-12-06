@@ -21,14 +21,33 @@
             <img src="./Img/LogoFondoBlanco.jpeg" alt="" width="400" height="250">
             </a>
         </div>
-        <nav class="navegador">
-            <ul>
-                <li><a href="#nos">NOSOTROS</a></li>
-                <li><a href="#even">EVENTOS</a></li>
-                <li><a href="#serv">SERVICIOS</a></li>
-                <li><a href="#ubi">UBICACIÓN</a></li>
-                <li><a href="#cons">CONSULTAS</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nos">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#even">EVENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#serv">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ubi">UBICACIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cons">CONSULTAS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -64,7 +83,7 @@
             </div>
         </section>
         <section id="cons" class="consultas">
-            <a href="./pages/formulario.html"><button class="botonconsulta">CONSULTAS</button></a>
+            <a href="https://api.whatsapp.com/send?phone=2634478995"><button class="botonconsulta">CONSULTAS</button></a>
         </section>
         <article>
             <h2 id="nos">VEN A VIVIR TU MOMENTO</h2>
@@ -74,6 +93,8 @@
             </section>
         </article>
         <article class="cards">
+            <br>
+            <br>
             <h2 id="even">EVENTOS</h2>
             <section class="tarjetas">
                 <div class="card border-dark mb-5" style="width: 18rem;">
@@ -138,6 +159,7 @@
         </article>
         <article>
             <h2 id="serv">SERVICIOS</h2>
+            <br>
             <section class="contenedor">
                 <div class="servicios">
                     <h3><i class="fa-solid fa-headphones fa-2xl"></i><br><br>Sonido|Iluminación</h3>
@@ -161,7 +183,7 @@
                     </p>
                 </div>
                 <div class="servicios">
-                    <h3><i class="fa-solid fa-toilet-paper fa-2xl"></i><br><br>Ambientaciones</h3>
+                    <h3><i class="fa-solid fa-toolbox fa-2xl"></i><br><br>Ambientaciones</h3>
                     <p>Incluimos servicio de decoración personalizado para crear ambientes únicos y memorables para cada
                         ocasión. Incluyendo sectores de foto, candy bar, fondo de mesa y ambientación de ceremonias.
                         <br>
@@ -173,7 +195,10 @@
             </section>
         </article>
         <article class="ubicacion">
+            <br>
+            <br>
             <h2 id="ubi">NUESTRA UBICACIÓN</h2>
+            <br>
             <div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.785006222934!2d-68.44854022543811!3d-33.16727067350302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e5c6f3cabd769%3A0x458e4b6e0a252254!2sEl%20Burg%C3%BCes%20Sal%C3%B3n%20de%20Eventos!5e0!3m2!1ses-419!2sar!4v1697929231998!5m2!1ses-419!2sar"
@@ -188,9 +213,20 @@
             </a>
         </div>
         <div class="iconos">
-            <i class="fa-brands fa-square-facebook fa-2xl"></i>
-            <i class="fa-brands fa-square-instagram fa-2xl"></i>
-            <i class="fa-brands fa-square-whatsapp fa-2xl"></i>
+            <ul class="wrapper">
+                <li class="icon facebook">
+                    <span class="tooltip">Facebook</span>
+                    <span><a href="https://www.facebook.com/ElburguesOFICIAL"><i class="fab fa-facebook-f"></i></a></span>
+                </li>
+                <li class="icon instagram">
+                    <span class="tooltip">Instagram</span>
+                    <span><a href="https://www.instagram.com/elburgueseventos/"><i class="fab fa-instagram"></i></a></span>
+                </li>
+                <li class="icon whatsapp">
+                    <span class="tooltip">Whatsapp</span>
+                    <span><a href=""><i class="fab fa-whatsapp"></i></a></span>
+                </li>
+            </ul>
         </div>
     </footer>
     <button class="btn-up" id="up">
